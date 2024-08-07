@@ -7,17 +7,5 @@ pipeline {
             git branch: 'main', url: 'https://github.com/cixarja/JenkinsSeleniumIde_Test'
             }
           }
-        stage("Set up .NET core") {
-
-        }
-        stage("Restore dependencies") {
-
-        }
-        stage("Build") {
-
-        }
-        stage("Run tests") {
-
-        }
     }
 }
